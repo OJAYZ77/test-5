@@ -1,0 +1,103 @@
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    font-weight: 900;
+    background-color:hsl(212, 45%, 89%) ;
+}
+.attribution a { 
+    color:white; 
+    background-color:hsl(218, 44%, 22%) ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 20rem;
+    height: 40px;
+    font-weight: 700;
+    margin: 0 20px;
+    color: white; 
+    background:hsl(218, 44%, 22%);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.button:hover{
+    background: rgb(16, 2, 53);
+}
+
+button .tap{
+    width: 130px;
+    height: 40px;
+    font-weight: 700;
+    margin: 0 20px;
+    color: white; 
+    background: linear-gradient(rgba(223, 111, 111, 0.945),rgba(167, 107, 18, 0.7));
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 15px;
+    background-color:hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 1px);
+    margin: 1.25rem;
+}
+
+.container{
+    background-color:white;
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+    box-shadow:5px 5px rgba(0,0,0,0.05) ;
+    margin-bottom: 2rem;
+}
+
+.container img{
+    border-radius:0.625rem;
+    margin-bottom: 1rem;
+}
+.container h1{
+    color:hsl(218, 44%, 22%) ;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.container p{
+    color:hsl(216, 15%, 48%);
+    text-align: center;
+}
+
+
+@media (min-width: 500px) {
+    .container{
+        width: 400px;
+    }
+}
+
+
+
+  
